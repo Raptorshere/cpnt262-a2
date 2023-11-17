@@ -35,6 +35,8 @@
 	
 	</div>
 	<div>
+		<img class="h-auto max-w-full rounded-lg" src="" alt="">
+	</div>
 		
 </section>
 
