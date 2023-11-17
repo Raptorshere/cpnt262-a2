@@ -4,14 +4,14 @@
 </script>
 
 <AppShell>
-	<svelte:fragment slot="header">Header</svelte:fragment>
+	<!-- <svelte:fragment slot="header"></svelte:fragment> -->
 	<!-- (sidebarLeft) -->
 	<svelte:fragment slot="sidebarRight"></svelte:fragment>
-	<svelte:fragment slot="pageHeader">Page Header</svelte:fragment>
+	<svelte:fragment slot="pageHeader"><h1>Fresh Aroma</h1></svelte:fragment>
 	<!-- Router Slot -->
 	<slot />
 	<!-- ---- / ---- -->
-	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
+	<svelte:fragment slot="pageFooter">&copy; Copyright 2023 | Kevin Fula	</svelte:fragment>
 	<svelte:fragment slot="footer">Footer</svelte:fragment>
 </AppShell>
 <!-- App Shell -->
