@@ -1,11 +1,25 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+	import { AppShell, AppBar, LightSwitch } from "@skeletonlabs/skeleton";
+  import Page from "./gallery/+page.svelte";
+	// import about from "../../lib/about/+page.svelte";
+	
+</script>
 
+<!--Main page-->
+<body>
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
-		<h2 class="h2">Welcome to Skeleton.</h2>
+		<button type="button" class="btn bg-gradient-to-br variant-gradient-secondary-primary">Warning! Viewer discretion is advised..</button>
+		<button class="btn"></button>
+		
 		<!-- Animated Logo -->
 		<figure>
-			<section class="img-bg" />
+			
+		
+		
+			<section class="bg-img" />
+			<img src="https://images.unsplash.com/photo-1570882280426-df8ac5ccd672?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
 			<svg
 				class="fill-token -scale-x-[100%]"
 				xmlns="http://www.w3.org/2000/svg"
@@ -17,41 +31,34 @@
 				/>
 			</svg>
 		</figure>
-		<!-- / -->
+<div>
+<!--Near footer section-->
+</div>
 		<div class="flex justify-center space-x-2">
 			<a
 				class="btn variant-filled"
-				href="https://skeleton.dev/"
+				href="https://www.hugoboss.com/us/cologne-men/"
 				target="_blank"
 				rel="noreferrer"
 			>
-				Launch Documentation
+				Hugo Boss
 			</a>
 		</div>
 		
-<section class="grid grid-cols-2 md:grid-cols-3 gap-4">
-	<div>
-		<img class="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-	
-	</div>
-	<div>
-		<img class="h-auto max-w-full rounded-lg" src="" alt="">
-	</div>
-		
-</section>
 
 		<div class="space-y-2">
-			<p>Try editing the following:</p>
-			<p><code class="code">/src/routes/+layout.svelte</code></p>
-			<p><code class="code"><div class="card p-4 max-h-[200px] overflow-auto space-y-4">
+			<p>Supplementary information</p>
+			
+			<p><code class="code">Ultimate scent of all your taste buds..smell buds, whatever way you call it!<div class="card p-4 max-h-[200px] overflow-auto space-y-4">
 				<h3 class="h3" data-toc-ignore>Test Scrolling Here</h3>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sit tempore eius minima eligendi ea nostrum nihil veniam numquam itaque.
-				</p>
-			</div></code></p>
-		</div>
-	</div>
-</div>
+				   </p>
+			   </div></code></p>
+		  </div>
+	  </div>
+  </div>
+</body>
 
 <style lang="postcss">
 	figure {
@@ -85,4 +92,5 @@
 			transform: scale(1.5);
 		}
 	}
+
 </style>

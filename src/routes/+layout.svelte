@@ -1,59 +1,32 @@
 <script>
 	import '../app.postcss';
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, LightSwitch} from '@skeletonlabs/skeleton'
+	// import Page from './+page.svelte';
+	import about from "../lib/about/+page.svelte"
 </script>
+<!--I had a hard time making sense of why the code was not importing up top here and displaying the "About" page-->
+	<AppShell>
+		<svelte:fragment slot="header">
+			<!-- <LightSwitch /> -->
+<AppBar>
+	<svelte:fragment slot="lead"><LightSwitch /></svelte:fragment>
+	<a href="http://localhost:5173/" class="text-3xl uppercase"><strong><span class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone">Fresh Aroma</span></strong></a>
+	<svelte:fragment slot="trail"><a class="btn btn-md variant-filled-secondary" href="/gallery">Gallery</a><a
+	class="btn btn-md variant-filled-secondary"
+	href="/about"
+>About</a></svelte:fragment>
+	<svelte:fragment slot="headline"><h3>It only makes scents</h3></svelte:fragment>
+</AppBar>
+  </svelte:fragment>
+		<!-- <svelte:fragment slot="sidebarLeft">Sidebar Left</svelte:fragment> -->
+		<slot />
+		<!-- ---- / ---- -->
+	<svelte:fragment slot="pageFooter">&copy; Copyright 2023 | Kevin Fula</svelte:fragment>
+	<svelte:fragment slot="footer"><em>SkeletonUI</em></svelte:fragment>
+	</AppShell>
+	
+	<slot />
 
-<AppShell>
-	<AppBar>
-		<svelte:fragment slot="header"></svelte:fragment>
-	</AppBar>
-	<svelte:fragment slot="header"></svelte:fragment> -->
-	(sidebarLeft) -->
-	<!-- <svelte:fragment slot="sidebarRight">Hello World</svelte:fragment>
-	<svelte:fragment slot="pageHeader"><h1>Fresh Aroma</h1></svelte:fragment>
-	<!-- Router Slot
-	<slot />
-	<!-- ---- / ---- -->
-	<svelte:fragment slot="pageFooter">&copy; Copyright 2023 | Kevin Fula	</svelte:fragment>
-	<svelte:fragment slot="footer">Footer</svelte:fragment>
-</AppShell> -->
-<!-- App Shell
-<AppShell>
-	<svelte:fragment slot="header">
-		<!-- App Bar -->
-		<AppBar>
-			<svelte:fragment slot="lead">
-			<h1 class="text-center">Fresh Aroma</h1>
-				<strong class="text-xl uppercase">Skeleton</strong>
-			</svelte:fragment>
-			<svelte:fragment slot="trail">
-				<!--TODO: This is where the right side of the navigation is-->
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Discord
-				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Twitter
-				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					GitHub
-				</a>
-			</svelte:fragment>
-		</AppBar>
-	</svelte:fragment>
-	<slot />
-</AppShell>
+	
+
+	
