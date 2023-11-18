@@ -1,6 +1,8 @@
 ## cpnt 262-a2
 
 # Author: Kevin Fula
+# Netflify Live Site:
+https://fresharoma.netlify.app/
 
 # Attributions:
 Sterling helped me out a lot with.. the gallery output, as well as with the right docs needed for putting together navbar for this assignment.
