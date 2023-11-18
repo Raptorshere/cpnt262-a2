@@ -8,6 +8,10 @@ https://fresharoma.netlify.app/
 Sterling helped me out a lot with.. the gallery output, as well as with the right docs needed for putting together navbar for this assignment.
 Robbie assisted with the "section class" and "div"s needed for the images in my gallery.
 
+## Search terms:
+-"Skeleton ui anchor"
+-"sveltekit skeleton ui"
+
 ### Images:
 Skeleton README:
 https://unsplash.com/photos/selective-focus-photography-of-water-splash-wEgR12N01Tk
