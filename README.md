@@ -1,18 +1,26 @@
-# create-svelte
+## cpnt 262-a2
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Author: Kevin Fula
 
-## Creating a project
+# Attributions:
+Sterling helped me out a lot with.. the gallery output, as well as with the right docs needed for putting together navbar for this assignment.
+Robbie assisted with the "section class" and "div"s needed for the images in my gallery.
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Images:
+Skeleton README:
+https://unsplash.com/photos/selective-focus-photography-of-water-splash-wEgR12N01Tk
+Water^
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+https://unsplash.com/photos/selective-focus-photo-of-green-vine-h5wvMCdOV3w
+Blurred nature^
+https://unsplash.com/photos/black-and-silver-box-mod-UmBgYmXQNBA
+First image bottle- dark^
+https://unsplash.com/photos/boss-hugo-boss-logo-L2DXgWfUQ1E
+Hugo Boss Cologne^
+https://www.hugoboss.com/us/cologne-men/
+HUGO BOSS website^
+https://unsplash.com/photos/shallow-focus-photography-of-floating-perfume-bottle-ywE0IlojSI8
+Floating bottle^
 
 ## Developing
 
