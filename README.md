@@ -12,41 +12,22 @@ Robbie assisted with the "section class" and "div"s needed for the images in my 
 -"Skeleton ui anchor"
 -"sveltekit skeleton ui"
 
-### Images:
-Skeleton README:
-https://unsplash.com/photos/selective-focus-photography-of-water-splash-wEgR12N01Tk
-Water^
+## Images:
+https://unsplash.com/photos/selective-focus-photography-of-water-splash-wEgR12N01Tk |
+***Water^***
 
-https://unsplash.com/photos/selective-focus-photo-of-green-vine-h5wvMCdOV3w
-Blurred nature^
-https://unsplash.com/photos/black-and-silver-box-mod-UmBgYmXQNBA
-First image bottle- dark^
-https://unsplash.com/photos/boss-hugo-boss-logo-L2DXgWfUQ1E
-Hugo Boss Cologne^
-https://www.hugoboss.com/us/cologne-men/
-HUGO BOSS website^
-https://unsplash.com/photos/shallow-focus-photography-of-floating-perfume-bottle-ywE0IlojSI8
-Floating bottle^
+https://unsplash.com/photos/selective-focus-photo-of-green-vine-h5wvMCdOV3w |
+***Blurred nature^***
 
-## Developing
+https://unsplash.com/photos/black-and-silver-box-mod-UmBgYmXQNBA |
+***First image bottle- dark^***
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+https://unsplash.com/photos/boss-hugo-boss-logo-L2DXgWfUQ1E |
+***Hugo Boss Cologne^***
 
-```bash
-npm run dev
+https://www.hugoboss.com/us/cologne-men/ |
+***HUGO BOSS website^***
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+https://unsplash.com/photos shallow-focus-photography-of-floating-perfume-bottle-ywE0IlojSI8 |
+***Floating bottle^***
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

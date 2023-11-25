@@ -3,6 +3,7 @@
 	import { AppShell, AppBar, LightSwitch} from '@skeletonlabs/skeleton'
 	// import Page from './+page.svelte';
 	import about from "../lib/about/+page.svelte"
+	let info = 
 </script>
 <!--I had a hard time making sense of why the code was not importing up top here and displaying the "About" page-->
 	<AppShell>
